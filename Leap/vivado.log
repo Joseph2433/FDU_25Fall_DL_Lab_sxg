@@ -1,0 +1,50 @@
+#-----------------------------------------------------------
+# Vivado v2019.2 (64-bit)
+# SW Build 2708876 on Wed Nov  6 21:40:23 MST 2019
+# IP Build 2700528 on Thu Nov  7 00:09:20 MST 2019
+# Start of session at: Mon Sep 29 10:11:25 2025
+# Process ID: 2464
+# Current directory: E:/FDu/second1/DL/week4/Leap
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent46684 E:\FDu\second1\DL\week4\Leap\Leap.xpr
+# Log file: E:/FDu/second1/DL/week4/Leap/vivado.log
+# Journal file: E:/FDu/second1/DL/week4/Leap\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project E:/FDu/second1/DL/week4/Leap/Leap.xpr
+INFO: [Project 1-313] Project file moved from 'E:/FDu/second1/DL/week3/Leap' since last save.
+CRITICAL WARNING: [Project 1-311] Could not find the file 'E:/FDu/second1/DL/week4/Leap/Leap.srcs/sources_1/new/divisible_by4.sv', nor could it be found using path 'E:/FDu/second1/DL/week3/Leap/Leap.srcs/sources_1/new/divisible_by4.sv'.
+Scanning sources...
+Finished scanning sources
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'E:/vivado/Vivado/2019.2/data/ip'.
+open_project: Time (s): cpu = 00:00:16 ; elapsed = 00:00:08 . Memory (MB): peak = 845.883 ; gain = 118.406
+update_compile_order -fileset sources_1
+export_ip_user_files -of_objects  [get_files E:/FDu/second1/DL/week4/Leap/Leap.srcs/sources_1/new/divisible_by4.sv] -no_script -reset -force -quiet
+remove_files  E:/FDu/second1/DL/week4/Leap/Leap.srcs/sources_1/new/divisible_by4.sv
+close [ open E:/FDu/second1/DL/week4/Leap/Leap.srcs/sources_1/new/divisible_by4.sv w ]
+add_files E:/FDu/second1/DL/week4/Leap/Leap.srcs/sources_1/new/divisible_by4.sv
+update_compile_order -fileset sources_1
+close [ open E:/FDu/second1/DL/week4/Leap/Leap.srcs/sources_1/new/divisible_by400.sv w ]
+add_files E:/FDu/second1/DL/week4/Leap/Leap.srcs/sources_1/new/divisible_by400.sv
+update_compile_order -fileset sources_1
+close [ open E:/FDu/second1/DL/week4/Leap/Leap.srcs/sources_1/new/X7seg.sv w ]
+add_files E:/FDu/second1/DL/week4/Leap/Leap.srcs/sources_1/new/X7seg.sv
+update_compile_order -fileset sources_1
+close [ open E:/FDu/second1/DL/week4/Leap/Leap.srcs/sources_1/new/Leap.sv w ]
+add_files E:/FDu/second1/DL/week4/Leap/Leap.srcs/sources_1/new/Leap.sv
+update_compile_order -fileset sources_1
+update_compile_order -fileset sources_1
+file mkdir E:/FDu/second1/DL/week4/Leap/Leap.srcs/constrs_1
+add_files -fileset constrs_1 -norecurse E:/FDu/second1/DL/week3/lab1/Nexys4DDR_Master.xdc
+import_files -fileset constrs_1 E:/FDu/second1/DL/week3/lab1/Nexys4DDR_Master.xdc
+reorder_files -fileset constrs_1 -before E:/FDu/second1/DL/week4/Leap/Leap.srcs/constrs_1/imports/lab1/Nexys4DDR_Master.xdc E:/FDu/second1/DL/week4/Leap/Leap.srcs/constrs_1/imports/lab1/Nexys4DDR_Master.xdc
+export_ip_user_files -of_objects  [get_files E:/FDu/second1/DL/week4/Leap/Leap.srcs/sources_1/new/Colors_Light.sv] -no_script -reset -force -quiet
+remove_files  E:/FDu/second1/DL/week4/Leap/Leap.srcs/sources_1/new/Colors_Light.sv
+close [ open E:/FDu/second1/DL/week4/Leap/Leap.srcs/sources_1/new/Rgb_Led.sv w ]
+add_files E:/FDu/second1/DL/week4/Leap/Leap.srcs/sources_1/new/Rgb_Led.sv
+update_compile_order -fileset sources_1
+update_compile_order -fileset sources_1
+update_compile_order -fileset sources_1
+exit
+INFO: [Common 17-206] Exiting Vivado at Mon Sep 29 11:27:44 2025...

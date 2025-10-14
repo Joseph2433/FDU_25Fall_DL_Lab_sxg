@@ -1,0 +1,11 @@
+0.6
+2019.2
+Nov  6 2019
+21:57:16
+E:/FDu/second1/DL/week5/BCD2Gray/BCD2Gray.sim/sim_1/behav/xsim/glbl.v,1573089660,verilog,,,,glbl,,,,,,,,
+E:/FDu/second1/DL/week5/BCD2Gray/BCD2Gray.srcs/sim_1/new/to_gray_sim.sv,1760415720,systemVerilog,,,,to_gray_sim,,,,,,,,
+E:/FDu/second1/DL/week5/BCD2Gray/BCD2Gray.srcs/sources_1/new/Gray1_Top.sv,1760407402,systemVerilog,,,,Gray1_Top,,,,,,,,
+E:/FDu/second1/DL/week5/BCD2Gray/BCD2Gray.srcs/sources_1/new/To_Gray.sv,1760359216,systemVerilog,,E:/FDu/second1/DL/week5/BCD2Gray/BCD2Gray.srcs/sources_1/new/ymq74LS138.sv,,To_Gray,,,,,,,,
+E:/FDu/second1/DL/week5/BCD2Gray/BCD2Gray.srcs/sources_1/new/hex7seg.sv,1760360774,systemVerilog,,E:/FDu/second1/DL/week5/BCD2Gray/BCD2Gray.srcs/sources_1/new/x7seg.sv,,hex7seg,,,,,,,,
+E:/FDu/second1/DL/week5/BCD2Gray/BCD2Gray.srcs/sources_1/new/x7seg.sv,1760360775,systemVerilog,,E:/FDu/second1/DL/week5/BCD2Gray/BCD2Gray.srcs/sources_1/new/ymq74LS138.sv,,x7seg,,,,,,,,
+E:/FDu/second1/DL/week5/BCD2Gray/BCD2Gray.srcs/sources_1/new/ymq74LS138.sv,1760436485,systemVerilog,,E:/FDu/second1/DL/week5/BCD2Gray/BCD2Gray.srcs/sim_1/new/to_gray_sim.sv,,ymq74LS138,,,,,,,,
