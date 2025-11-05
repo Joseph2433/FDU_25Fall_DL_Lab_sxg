@@ -3,9 +3,9 @@
 // Company: 
 // Engineer: 
 // 
-// Create Date: 2025/10/20 11:27:41
+// Create Date: 2025/10/27 11:02:11
 // Design Name: 
-// Module Name: Bin2bcd
+// Module Name: to_Decimal
 // Project Name: 
 // Target Devices: 
 // Tool Versions: 
@@ -20,17 +20,17 @@
 //////////////////////////////////////////////////////////////////////////////////
 
 
-module Bin2bcd(
-    input  logic [8:0] b,
+module to_Decimal(
+    input  logic [7:0] b,
     output logic [11:0] p );
     
     logic [19:0] z;
     integer i;
     
     always_comb begin
-        z = 20'd0;
-        z[10:3] = b;         
-        repeat (5) begin
+        z = 20'd0;            
+        z[7:0] = b;         
+        repeat (8) begin
             if (z[11:8]  >= 5) z[11:8]  = z[11:8]  + 4'd3; 
             if (z[15:12] >= 5) z[15:12] = z[15:12] + 4'd3; 
             if (z[19:16] >= 5) z[19:16] = z[19:16] + 4'd3; 
@@ -39,4 +39,3 @@ module Bin2bcd(
         p = z[19:8];        
     end
 endmodule 
-    
