@@ -1,0 +1,194 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GenRun Id="impl_1" LaunchPart="xc7a100tcsg324-1" LaunchTime="1764581895">
+  <File Type="BITSTR-BMM" Name="SVGA_Stripes_Top_bd.bmm"/>
+  <File Type="OPT-METHODOLOGY-DRC" Name="SVGA_Stripes_Top_methodology_drc_opted.rpt"/>
+  <File Type="INIT-TIMING" Name="SVGA_Stripes_Top_timing_summary_init.rpt"/>
+  <File Type="ROUTE-PWR" Name="SVGA_Stripes_Top_power_routed.rpt"/>
+  <File Type="PA-TCL" Name="SVGA_Stripes_Top.tcl"/>
+  <File Type="OPT-TIMING" Name="SVGA_Stripes_Top_timing_summary_opted.rpt"/>
+  <File Type="OPT-DCP" Name="SVGA_Stripes_Top_opt.dcp"/>
+  <File Type="ROUTE-PWR-SUM" Name="SVGA_Stripes_Top_power_summary_routed.pb"/>
+  <File Type="REPORTS-TCL" Name="SVGA_Stripes_Top_reports.tcl"/>
+  <File Type="OPT-DRC" Name="SVGA_Stripes_Top_drc_opted.rpt"/>
+  <File Type="OPT-HWDEF" Name="SVGA_Stripes_Top.hwdef"/>
+  <File Type="PWROPT-DCP" Name="SVGA_Stripes_Top_pwropt.dcp"/>
+  <File Type="PWROPT-DRC" Name="SVGA_Stripes_Top_drc_pwropted.rpt"/>
+  <File Type="PWROPT-TIMING" Name="SVGA_Stripes_Top_timing_summary_pwropted.rpt"/>
+  <File Type="PLACE-DCP" Name="SVGA_Stripes_Top_placed.dcp"/>
+  <File Type="PLACE-IO" Name="SVGA_Stripes_Top_io_placed.rpt"/>
+  <File Type="PLACE-CLK" Name="SVGA_Stripes_Top_clock_utilization_placed.rpt"/>
+  <File Type="PLACE-UTIL" Name="SVGA_Stripes_Top_utilization_placed.rpt"/>
+  <File Type="PLACE-UTIL-PB" Name="SVGA_Stripes_Top_utilization_placed.pb"/>
+  <File Type="PLACE-CTRL" Name="SVGA_Stripes_Top_control_sets_placed.rpt"/>
+  <File Type="PLACE-SIMILARITY" Name="SVGA_Stripes_Top_incremental_reuse_placed.rpt"/>
+  <File Type="PLACE-PRE-SIMILARITY" Name="SVGA_Stripes_Top_incremental_reuse_pre_placed.rpt"/>
+  <File Type="PLACE-TIMING" Name="SVGA_Stripes_Top_timing_summary_placed.rpt"/>
+  <File Type="POSTPLACE-PWROPT-DCP" Name="SVGA_Stripes_Top_postplace_pwropt.dcp"/>
+  <File Type="BG-BIN" Name="SVGA_Stripes_Top.bin"/>
+  <File Type="POSTPLACE-PWROPT-TIMING" Name="SVGA_Stripes_Top_timing_summary_postplace_pwropted.rpt"/>
+  <File Type="PHYSOPT-DCP" Name="SVGA_Stripes_Top_physopt.dcp"/>
+  <File Type="PHYSOPT-DRC" Name="SVGA_Stripes_Top_drc_physopted.rpt"/>
+  <File Type="BITSTR-MSK" Name="SVGA_Stripes_Top.msk"/>
+  <File Type="PHYSOPT-TIMING" Name="SVGA_Stripes_Top_timing_summary_physopted.rpt"/>
+  <File Type="ROUTE-ERROR-DCP" Name="SVGA_Stripes_Top_routed_error.dcp"/>
+  <File Type="ROUTE-DCP" Name="SVGA_Stripes_Top_routed.dcp"/>
+  <File Type="ROUTE-BLACKBOX-DCP" Name="SVGA_Stripes_Top_routed_bb.dcp"/>
+  <File Type="ROUTE-DRC" Name="SVGA_Stripes_Top_drc_routed.rpt"/>
+  <File Type="ROUTE-DRC-PB" Name="SVGA_Stripes_Top_drc_routed.pb"/>
+  <File Type="ROUTE-DRC-RPX" Name="SVGA_Stripes_Top_drc_routed.rpx"/>
+  <File Type="BITSTR-MMI" Name="SVGA_Stripes_Top.mmi"/>
+  <File Type="ROUTE-METHODOLOGY-DRC" Name="SVGA_Stripes_Top_methodology_drc_routed.rpt"/>
+  <File Type="ROUTE-METHODOLOGY-DRC-RPX" Name="SVGA_Stripes_Top_methodology_drc_routed.rpx"/>
+  <File Type="ROUTE-METHODOLOGY-DRC-PB" Name="SVGA_Stripes_Top_methodology_drc_routed.pb"/>
+  <File Type="ROUTE-PWR-RPX" Name="SVGA_Stripes_Top_power_routed.rpx"/>
+  <File Type="ROUTE-STATUS" Name="SVGA_Stripes_Top_route_status.rpt"/>
+  <File Type="ROUTE-STATUS-PB" Name="SVGA_Stripes_Top_route_status.pb"/>
+  <File Type="ROUTE-TIMINGSUMMARY" Name="SVGA_Stripes_Top_timing_summary_routed.rpt"/>
+  <File Type="ROUTE-TIMING-PB" Name="SVGA_Stripes_Top_timing_summary_routed.pb"/>
+  <File Type="ROUTE-TIMING-RPX" Name="SVGA_Stripes_Top_timing_summary_routed.rpx"/>
+  <File Type="ROUTE-SIMILARITY" Name="SVGA_Stripes_Top_incremental_reuse_routed.rpt"/>
+  <File Type="ROUTE-CLK" Name="SVGA_Stripes_Top_clock_utilization_routed.rpt"/>
+  <File Type="ROUTE-BUS-SKEW" Name="SVGA_Stripes_Top_bus_skew_routed.rpt"/>
+  <File Type="ROUTE-BUS-SKEW-PB" Name="SVGA_Stripes_Top_bus_skew_routed.pb"/>
+  <File Type="ROUTE-BUS-SKEW-RPX" Name="SVGA_Stripes_Top_bus_skew_routed.rpx"/>
+  <File Type="POSTROUTE-PHYSOPT-DCP" Name="SVGA_Stripes_Top_postroute_physopt.dcp"/>
+  <File Type="POSTROUTE-PHYSOPT-BLACKBOX-DCP" Name="SVGA_Stripes_Top_postroute_physopt_bb.dcp"/>
+  <File Type="POSTROUTE-PHYSOPT-TIMING" Name="SVGA_Stripes_Top_timing_summary_postroute_physopted.rpt"/>
+  <File Type="POSTROUTE-PHYSOPT-TIMING-PB" Name="SVGA_Stripes_Top_timing_summary_postroute_physopted.pb"/>
+  <File Type="POSTROUTE-PHYSOPT-TIMING-RPX" Name="SVGA_Stripes_Top_timing_summary_postroute_physopted.rpx"/>
+  <File Type="POSTROUTE-PHYSOPT-BUS-SKEW" Name="SVGA_Stripes_Top_bus_skew_postroute_physopted.rpt"/>
+  <File Type="POSTROUTE-PHYSOPT-BUS-SKEW-PB" Name="SVGA_Stripes_Top_bus_skew_postroute_physopted.pb"/>
+  <File Type="BG-BIT" Name="SVGA_Stripes_Top.bit"/>
+  <File Type="POSTROUTE-PHYSOPT-BUS-SKEW-RPX" Name="SVGA_Stripes_Top_bus_skew_postroute_physopted.rpx"/>
+  <File Type="BITSTR-RBT" Name="SVGA_Stripes_Top.rbt"/>
+  <File Type="BITSTR-NKY" Name="SVGA_Stripes_Top.nky"/>
+  <File Type="PDI-FILE" Name="SVGA_Stripes_Top.pdi"/>
+  <File Type="RCFI_FILE" Name="SVGA_Stripes_Top.rcfi"/>
+  <File Type="CFI_FILE" Name="SVGA_Stripes_Top.cfi"/>
+  <File Type="RNPI_FILE" Name="SVGA_Stripes_Top.rnpi"/>
+  <File Type="NPI_FILE" Name="SVGA_Stripes_Top.npi"/>
+  <File Type="RBD_FILE" Name="SVGA_Stripes_Top.rbd"/>
+  <File Type="BITSTR-LTX" Name="debug_nets.ltx"/>
+  <File Type="BITSTR-LTX" Name="SVGA_Stripes_Top.ltx"/>
+  <File Type="BITSTR-SYSDEF" Name="SVGA_Stripes_Top.sysdef"/>
+  <File Type="BG-BGN" Name="SVGA_Stripes_Top.bgn"/>
+  <File Type="BG-DRC" Name="SVGA_Stripes_Top.drc"/>
+  <File Type="RDI-RDI" Name="SVGA_Stripes_Top.vdi"/>
+  <File Type="WBT-USG" Name="usage_statistics_webtalk.html"/>
+  <FileSet Name="sources" Type="DesignSrcs" RelSrcDir="$PSRCDIR/sources_1">
+    <Filter Type="Srcs"/>
+    <File Path="$PSRCDIR/sources_1/new/SVGA800600.sv">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/SVGA_Stripes.sv">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/clkDiv.sv">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/SVGA_Stripes_Top.sv">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/Digits10_case.sv">
+      <FileInfo>
+        <Attr Name="AutoDisabled" Val="1"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/digits10_ROM.sv">
+      <FileInfo>
+        <Attr Name="AutoDisabled" Val="1"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/SVGA_Top.sv">
+      <FileInfo>
+        <Attr Name="AutoDisabled" Val="1"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/SVGA_numbers_case_Top.sv">
+      <FileInfo>
+        <Attr Name="AutoDisabled" Val="1"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/SVGA_colors_Top.sv">
+      <FileInfo>
+        <Attr Name="AutoDisabled" Val="1"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/SVGA_clkIP_Top.sv">
+      <FileInfo>
+        <Attr Name="AutoDisabled" Val="1"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <Config>
+      <Option Name="DesignMode" Val="RTL"/>
+      <Option Name="TopModule" Val="SVGA_Stripes_Top"/>
+      <Option Name="TopAutoSet" Val="TRUE"/>
+    </Config>
+  </FileSet>
+  <FileSet Name="constrs_in" Type="Constrs" RelSrcDir="$PSRCDIR/constrs_1">
+    <Filter Type="Constrs"/>
+    <File Path="$PPRDIR/../../Nexys4DDR_Master.xdc">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+      </FileInfo>
+    </File>
+    <Config>
+      <Option Name="ConstrsType" Val="XDC"/>
+    </Config>
+  </FileSet>
+  <FileSet Name="utils" Type="Utils" RelSrcDir="$PSRCDIR/utils_1">
+    <Filter Type="Utils"/>
+    <Config>
+      <Option Name="TopAutoSet" Val="TRUE"/>
+    </Config>
+  </FileSet>
+  <Strategy Version="1" Minor="2">
+    <StratHandle Name="Vivado Implementation Defaults" Flow="Vivado Implementation 2019">
+      <Desc>Default settings for Implementation.</Desc>
+    </StratHandle>
+    <Step Id="init_design"/>
+    <Step Id="opt_design"/>
+    <Step Id="power_opt_design"/>
+    <Step Id="place_design"/>
+    <Step Id="post_place_power_opt_design"/>
+    <Step Id="phys_opt_design" EnableStepBool="1"/>
+    <Step Id="route_design"/>
+    <Step Id="post_route_phys_opt_design"/>
+    <Step Id="write_bitstream"/>
+  </Strategy>
+</GenRun>

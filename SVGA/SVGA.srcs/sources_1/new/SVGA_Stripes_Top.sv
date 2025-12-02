@@ -1,0 +1,19 @@
+module SVGA_Stripes_Top(
+    input  logic CLK100MHZ, BTNC,
+    output logic VGA_HS, VGA_VS, 
+    output logic [3:0] VGA_R, VGA_G, VGA_B );
+    
+    logic clk50MHz, displayOn;
+    logic [10:0] xPixel, yPixel;
+    
+    clkDiv C1(.clk(CLK100MHZ), .clr(BTNC), .clk50MHz(clk50MHz));
+    
+    SVGA800600 V1(.clk(clk50MHz), .clr(BTNC),        // Input
+                  .hSync(VGA_HS), .vSync(VGA_VS),    // Output ***
+                  .xPixel(xPixel), .yPixel(yPixel),  // Output 
+                  .displayOn(displayOn));            // Output
+        
+    SVGA_Stripes VS(.displayOn(displayOn), 
+                   .xPixel(xPixel), .yPixel(yPixel),          // Input
+                   .red(VGA_R), .green(VGA_G), .blue(VGA_B)); // Output ***
+endmodule

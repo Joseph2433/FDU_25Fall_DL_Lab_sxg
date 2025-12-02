@@ -1,0 +1,12 @@
+#-----------------------------------------------------------
+# Vivado v2019.2 (64-bit)
+# SW Build 2708876 on Wed Nov  6 21:40:23 MST 2019
+# IP Build 2700528 on Thu Nov  7 00:09:20 MST 2019
+# Start of session at: Mon Nov 17 15:10:35 2025
+# Process ID: 89692
+# Current directory: E:/FDu/second1/DL/lab/Traffic_LED/Traffic_LED.runs/synth_1
+# Command line: vivado.exe -log Traffic_LED_Top.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source Traffic_LED_Top.tcl
+# Log file: E:/FDu/second1/DL/lab/Traffic_LED/Traffic_LED.runs/synth_1/Traffic_LED_Top.vds
+# Journal file: E:/FDu/second1/DL/lab/Traffic_LED/Traffic_LED.runs/synth_1\vivado.jou
+#-----------------------------------------------------------
+source Traffic_LED_Top.tcl -notrace
